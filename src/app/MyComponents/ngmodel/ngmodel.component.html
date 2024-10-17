@@ -1,0 +1,8 @@
+<input type="text" name="name" id="name" [(ngModel)] = 'name'>
+<input type="text" name="desc" id="desc" [(ngModel)] = 'desc'>
+
+<p>{{name}}</p>
+<p>{{desc}}</p>
+
+<input type="text" #in>
+<button (click)="al(in.value)">Alert</button>
